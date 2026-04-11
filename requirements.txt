@@ -1,0 +1,5 @@
+# Runtime dependency for keyboard tap logging.
+# Analysis dependencies are included for upcoming offline steps.
+pandas>=2.2
+matplotlib>=3.9
+pynput>=1.7
