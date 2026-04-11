@@ -148,6 +148,7 @@ def _play_cue_sound(frequency_hz: int, duration_seconds: float) -> None:
         import winsound  # Windows standard library module.
 
         winsound.Beep(int(frequency_hz), duration_ms)
+        print(f"playing cue at {expected_time}")
     except Exception:
         # Fallback is intentionally simple for first draft.
         print("\a", end="", flush=True)
